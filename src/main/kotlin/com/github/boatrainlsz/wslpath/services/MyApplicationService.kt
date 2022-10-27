@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.boatrainlsz.wslpath.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.boatrainlsz.wslpath.MyBundle
 
 class MyApplicationService {
 
