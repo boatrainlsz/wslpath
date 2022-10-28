@@ -1,18 +1,13 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.boatrainlsz.wslpath</id>
-    <name>wslpath</name>
-    <vendor>boatrainlsz</vendor>
+  <id>com.github.boatrainlsz.wslpath</id>
+  <name>WSLPath</name>
+  <vendor>boatrainlsz</vendor>
 
-    <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.boatrainlsz.wslpath.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.boatrainlsz.wslpath.services.MyProjectService"/>
-    </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.boatrainlsz.wslpath.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+  <actions>
+    <action id="CopyPathInWSLProvider" class="com.github.boatrainlsz.wslpath.actions.CopyPathInWSLProvider">
+      <add-to-group group-id="CopyFileReference"/>
+    </action>
+  </actions>
 </idea-plugin>
