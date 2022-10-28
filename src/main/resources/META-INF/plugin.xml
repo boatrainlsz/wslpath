@@ -6,7 +6,9 @@
   <depends>com.intellij.modules.platform</depends>
 
   <actions>
-    <action id="CopyPathInWSLProvider" class="com.github.boatrainlsz.wslpath.actions.CopyPathInWSLProvider">
+    <action id="CopyPathInWSLProvider"
+            class="com.github.boatrainlsz.wslpath.actions.CopyPathInWSLProvider"
+            icon="AllIcons.RunConfigurations.Wsl">
       <add-to-group group-id="CopyFileReference"/>
     </action>
   </actions>
