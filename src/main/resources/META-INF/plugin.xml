@@ -1,7 +1,8 @@
 <idea-plugin>
   <id>com.github.boatrainlsz.wslpath</id>
-  <name>WSLPath</name>
+  <name>Copy WSL Path of File</name>
   <vendor>boatrainlsz</vendor>
+  <description>Provides copy WSL path of file support in IntelliJ-based IDE.</description>
 
   <depends>com.intellij.modules.platform</depends>
 
