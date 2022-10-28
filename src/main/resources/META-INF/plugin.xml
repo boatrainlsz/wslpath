@@ -8,7 +8,8 @@
   <actions>
     <action id="CopyPathInWSLProvider"
             class="com.github.boatrainlsz.wslpath.actions.CopyPathInWSLProvider"
-            icon="AllIcons.RunConfigurations.Wsl">
+            icon="AllIcons.RunConfigurations.Wsl"
+            text="Path in WSL">
       <add-to-group group-id="CopyFileReference"/>
     </action>
   </actions>
