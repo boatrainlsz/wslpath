@@ -1,8 +1,8 @@
 # wslpath
 
 ![Build](https://github.com/boatrainlsz/wslpath/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/20273)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/20273)
+[![Version](https://img.shields.io/jetbrains/plugin/v/20273.svg)](https://plugins.jetbrains.com/plugin/20273)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/20273.svg)](https://plugins.jetbrains.com/plugin/20273)
 
 <!-- Plugin description -->
 This plugin provides copy WSL path of file support in IntelliJ-based IDE.
